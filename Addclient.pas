@@ -9,6 +9,14 @@ uses
 type
   TForm3 = class(TForm)
     Exit: TButton;
+    ClientName: TEdit;
+    ClientNameLabel: TLabel;
+    ClientLogin: TEdit;
+    ClientLoginLabel: TLabel;
+    ClientPassword: TEdit;
+    ClientPasswordLabel: TLabel;
+    ClientClear: TButton;
+    ClientAdd: TButton;
     procedure FormShow(Sender: TObject);
     procedure ExitClick(Sender: TObject);
   private
