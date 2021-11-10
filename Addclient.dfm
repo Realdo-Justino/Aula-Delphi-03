@@ -1,9 +1,9 @@
-object Form2: TForm2
-  Left = 280
-  Top = 257
+object Form3: TForm3
+  Left = 192
+  Top = 117
   Width = 928
   Height = 480
-  Caption = 'Form2'
+  Caption = 'Form3'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -22,22 +22,5 @@ object Form2: TForm2
     Caption = 'Exit'
     TabOrder = 0
     OnClick = ExitClick
-  end
-  object AddClient: TButton
-    Left = 344
-    Top = 80
-    Width = 75
-    Height = 25
-    Caption = 'Add Client'
-    TabOrder = 1
-    OnClick = AddClientClick
-  end
-  object DeleteClient: TButton
-    Left = 344
-    Top = 136
-    Width = 75
-    Height = 25
-    Caption = 'Delete Client'
-    TabOrder = 2
   end
 end
